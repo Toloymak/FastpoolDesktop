@@ -1,0 +1,15 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="300" d:DesignHeight="500"
+             x:Class="FastpoolDesktop.Views.TaskListView">
+
+    <DockPanel>
+        <Button DockPanel.Dock="Bottom">Add item</Button>
+        <StackPanel>
+            <CheckBox Margin="4">One</CheckBox>
+            <CheckBox Margin="4">Two</CheckBox>
+        </StackPanel>
+    </DockPanel>
+</UserControl>
